@@ -76,3 +76,49 @@ img {
     border: 2px solid black;
     cursor: pointer;
 }
+
+section {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3s steps(40, end);
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff8dc;
+}
+
+p {
+    font-size: 55px;
+    color: #fff8dc;
+    font-weight: 1000;
+}
+
+@media (max-width: 400px) {
+    ul {
+        display: block;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    body {
+        background-image: url(https://images.unsplash.com/photo-1603043862793-eef10492c41c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDN8fGJpY3ljbGVzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60);
+        background-size: cover;
+    }
+
+    p {
+        font-size: 25px;
+    }
+    
+}
